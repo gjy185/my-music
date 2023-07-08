@@ -1,0 +1,19 @@
+@import "var.scss";
+@import "global.scss";
+
+.login-logo {
+  // background-color: $color-blue-light;
+  // background-color: #ff3638;
+  background-color: #8a060b;
+  height: 100vh;
+  width: 50vw;
+  min-width: 650px;
+  overflow: hidden;
+  @include layout(center, center);
+  .icon {
+    // @include icon(6.5em, $color-blue-dark);
+    @include icon(6.5em, #fff);
+
+    transform: rotate(-30deg);
+  }
+}
